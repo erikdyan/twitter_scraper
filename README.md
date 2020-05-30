@@ -23,4 +23,4 @@ With no optional flags set, this script will download all available tweets from 
 ### Optional Flags
 * `-c, --csv`: output tweets to a CSV file
 * `-i, --include_links`: include tweets containing links
-* `-l [LIMIT], --limit [LIMIT]`: maximum number of tweets to retrieve
+* `-l [LIMIT], --limit [LIMIT]`: maximum number of tweets to retrieve. Default = all
