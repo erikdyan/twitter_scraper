@@ -30,7 +30,7 @@ def download_tweets(username, csv, include_links, limit):
 	:param limit: Maximum number of tweets to download. `None` to download all.
 	"""
 
-	output = f'{username.lower()}'
+	output = username.lower()
 	output += '.csv' if csv else '.txt'
 
 	config = twint.Config()
